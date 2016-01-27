@@ -121,7 +121,7 @@ public class MainView extends JFrame implements CommandHandler
         //be removed, allowing the mainPanel to wrap to its contents
         Tools.setSizes(mainPanel, 600, 600);
         
-        JLabel testLabel = new JLabel("Pretty snazzy, eh?");
+        JLabel testLabel = new JLabel("Of course, if you like empty boxes.");
         testLabel.setAlignmentX(LEFT_ALIGNMENT);
         mainPanel.add(testLabel);
         //DEBUG NPS// -- should be removed later
