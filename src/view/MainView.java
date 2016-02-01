@@ -121,9 +121,6 @@ public class MainView extends JFrame implements CommandHandler
         //be removed, allowing the mainPanel to wrap to its contents
         Tools.setSizes(mainPanel, 600, 600);
         
-        JLabel testLabel = new JLabel("Soup Poop Doop Goop");
-        testLabel.setAlignmentX(LEFT_ALIGNMENT);
-        mainPanel.add(testLabel);
         //DEBUG NPS// -- should be removed later
         
         //add the tic-tac-toe grid to the mainPanel
